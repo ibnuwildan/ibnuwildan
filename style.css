@@ -11,7 +11,7 @@ body {
 }
 
 .navbar {
-  background: #080808 !important;
+  background: transparent;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

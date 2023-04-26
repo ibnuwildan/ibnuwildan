@@ -6,7 +6,7 @@
 }
 
 body {
-  background: #080808;
+  background: #000000;
   color: #fff;
 }
 
@@ -99,9 +99,8 @@ body {
   transform: translateY(-10px);
 }
 
-.city ul li img {
+.city li img {
   width: 50px;
-  border-radius: 50%;
   padding-bottom: 10px;
 }
 .tab-link::after {

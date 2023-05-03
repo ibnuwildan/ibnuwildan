@@ -102,6 +102,7 @@ body {
 .city li img {
   width: 50px;
   padding-bottom: 10px;
+  padding-right: 10px;
 }
 .tab-link::after {
   content: "";

@@ -8,6 +8,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div>
@@ -29,26 +33,31 @@
     <div class="banner-image">
       <div class="banner-text fw-bold">
         <h1>Hallo, I'm Ibnu Wildan</h1>
-        <p>Front end | UI designer </p>
+        <p>Front end | UI designer</p>
       </div>
     </div>
     <!-- about -->
     <section class="about" id="about">
-      <div class="container" style="padding-top: 8rem;">
+      <div class="container" style="padding-top: 3rem">
         <div class="row mb-5">
-          <div class="about col-lg-4">
-            <img src="img/IMG_9110.jpg" />
+          <div class="about-img col-lg-6">
+            <img src="img/inu.jpg" alt="" />
           </div>
-          <div class="about col-lg-6 ps-5">
+          <div class="about col-lg-6 ps-5" style="text-align: justify">
             <h3>About Me</h3>
-            <p>I am a front-end developer and UI designer focused on creating visually stunning and intuitive web experiences. With expertise in HTML, CSS, JavaScript, React Js and Postman API, as well as experience using front-end frameworks such as React, I ensure that every website I build not only looks great, but also functions seamlessly. As a UI designer, I pay attention to every detail in design to create user interfaces that are easy to use and enjoyable for users. I also ensure that every web layout I create adheres to responsive design and modern design principles to deliver the best user experience. With a combination of technical skills and design artistry, I am ready to create compelling and intuitive web experiences for users.</p>
+            <p>
+              I am a front-end developer and UI designer focused on creating visually stunning and intuitive web experiences. With expertise in HTML, CSS, JavaScript, React Js and Postman API, as well as experience using front-end
+              frameworks such as React, I ensure that every website I build not only looks great, but also functions seamlessly. As a UI designer, I pay attention to every detail in design to create user interfaces that are easy to use and
+              enjoyable for users. I also ensure that every web layout I create adheres to responsive design and modern design principles to deliver the best user experience. With a combination of technical skills and design artistry, I am
+              ready to create compelling and intuitive web experiences for users.
+            </p>
             <div class="btn-group">
               <button class="btn btn-outline" onclick="openCity('London')">Skill</button>
               <button class="btn btn-outline" onclick="openCity('Paris')">Experiences</button>
               <button class="btn btn-outline" onclick="openCity('Tokyo')">Education</button>
             </div>
             <div id="London" class="city">
-              <div class="row" style="margin-right: 5px;">
+              <div class="row" style="margin-right: 5px">
                 <div class="col-6 col-sm-3">
                   <li><img src="img/html.png" />HTML</li>
                 </div>
@@ -66,30 +75,33 @@
                   <li><img src="img/react.png" />ReactJS</li>
                 </div>
                 <div class="col-6 col-sm-3">
-                  <li><img src="img/api.png"/>API</li>
+                  <li><img src="img/api.png" />REST API</li>
                 </div>
-               
               </div>
             </div>
             <div id="Paris" class="city" style="display: none">
               <ul>
-                <li>Engineer & Administrator Learning Management System
+                <li>
+                  Engineer & Administrator Learning Management System
                   <p>Yayasan Kristen Indonesia (Feb 2021-Currently employed)</p>
                 </li>
-                <li>Web & Mobile Project
+                <li>
+                  Web & Mobile Project
                   <p>Purwadhika digital school (Oct 2020- Jan 2021)</p>
                 </li>
-                <li>Administrator Customer Care
+                <li>
+                  Administrator Customer Care
                   <p>Bank Negara Indonesia (Mar 2018 - Sep2020)</p>
                 </li>
-                <li>Front End Developer
+                <li>
+                  Front End Developer
                   <p>PT. Total Bangun Persada (Oct 2017-Jan 2018)</p>
                 </li>
               </ul>
             </div>
             <div id="Tokyo" class="city" style="display: none">
               <ul>
-                <li>Graduate of Informatic Enfineering,  at Gunadarma University with GPA (3.23)</li>
+                <li>Graduate of Informatic Enfineering, at Gunadarma University with GPA (3.23)</li>
                 <li>State Senior High School, 7 South Tangerang</li>
                 <li>Courses Web & Mobile at Purwadhika coding school</li>
               </ul>
@@ -101,27 +113,23 @@
 
     <!-- service -->
     <section class="service" id="service">
-      <div class="container" style="padding-top: 5rem;">
+      <div class="container" style="padding-top: 5rem; text-align: justify">
         <h1 class="sub-tittle">My Service</h1>
         <div class="row">
           <div class="col-lg-3 m-5">
             <i class="uil uil-arrow" style="font-size: 50px; margin-bottom: 30px"></i>
             <h2>Frond end</h2>
-            <p>responsible for implementing visual elements that users see and interact with in a web application. </p>
+            <p>responsible for implementing visual elements that users see and interact with in a web application.</p>
           </div>
           <div class="col-lg-3 m-5">
             <i class="uil uil-crop-alt" style="font-size: 50px; margin-bottom: 30px"></i>
             <h2>UI Design</h2>
-            <p>
-              build interfaces in software or computerized devices, focusing on looks or style.
-            </p>
+            <p>build interfaces in software or computerized devices, focusing on looks or style.</p>
           </div>
           <div class="col-lg-3 m-5">
             <i class="uil uil-apps" style="font-size: 50px; margin-bottom: 30px"></i>
             <h2>Web Design</h2>
-            <p>
-              plan, create, and code and web pages.
-            </p>
+            <p>plan, create, and code and web pages.</p>
           </div>
         </div>
       </div>
@@ -129,57 +137,60 @@
 
     <!-- porfolio -->
     <section id="porfolio">
-      <div class="container" style="padding-top: 3rem;">
+      <div class="container" style="padding-top: 3rem">
         <h1>My Porfolio</h1>
-        <div class="work-list ps-5">
+        <div class="work-list">
           <div class="work">
-            <img src="img/11658.jpg" />
-            <div class="layer">
+            <a href="https://ibnuwildan.github.io/ui-foods/">
+              <img src="img/11658.jpg" />
               <h3>Food</h3>
-              <p>the web for Food<br>
-                 Using HTML, CSS, JavaScript</p>
-              <a href="https://ibnuwildan.github.io/ui-foods/"><i class="uil uil-external-link-alt"></i></a>
-            </div>
+              <p>
+                the web for Food<br />
+                Using HTML, CSS, JavaScript
+              </p>
+            </a>
           </div>
           <div class="work">
-            <img src="img/fashion.jpeg" />
-            <div class="layer">
-              <h3>Oddi design Project</h3>
-              <p>Company Profile <br>
-                Using HTML, CSS, JavaScript, React js</p>
-              <a href="https://oddi.uptip.org/"><i class="uil uil-external-link-alt"></i></a>
-            </div>
+            <a href="https://oddidesign.com/">
+              <img src="img/fashion.jpeg" />
+              <h3>Oddi design</h3>
+              <p>
+                Company Profile <br />
+                Using HTML, CSS, JavaScript, React js
+              </p>
+            </a>
           </div>
           <div class="work">
-            <img src="img/1852.jpg" />
-            <div class="layer">
+            <a href="https://ibnuwildan.github.io/find-movie/">
+              <img src="img/1852.jpg" />
               <h3>Find Movie</h3>
-              <p>the app for find movie u want<br>
-                Using React.js, bootstrap, fake Api</p>
-              <a href="https://ibnuwildan.github.io/find-movie/"><i class="uil uil-external-link-alt"></i></a>
-            </div>
+              <p>
+                the app for find movie u want<br />
+                Using React.js, bootstrap, fake Api
+              </p>
+            </a>
           </div>
         </div>
       </div>
     </section>
     <!-- contact -->
     <section id="contact">
-      <div class="container" style="padding-top: 5rem;">
+      <div class="container" style="padding-top: 5rem">
         <div class="row pb-5">
           <div class="col-lg-6">
             <h1>Touch Me</h1>
-            <p class="p-1 mt-3"><i class="uil uil-envelope"></i>ibnuwildann@gmail.com</p>
-            <p class="p-1 mt-3"><i class="uil uil-whatsapp"></i>085217180396</p>
+            <a clss="gmail"> <img src="./img/gmail.png" alt="" width="30px" /> ibnuwildann@gmail.com</a> <br />
+            <a clss="whatsapp" href="https://wa.me/6285217180396"> <img src="./img/whatsapp1.png" alt="" width="30px" /> 085217180396</a>
             <div class="social-icon">
-              <a href="https://www.instagram.com/ibnu_wildan/"><i class="uil uil-instagram"></i></a>
-              <a href="https://www.facebook.com/wildan.marjinal.5"><i class="uil uil-facebook"></i></a>
-              <a href="https://www.linkedin.com/in/ibnu-wildan-4379aa152/"><i class="uil uil-linkedin"></i></a>
-              <a href="https://github.com/ibnuwildan?tab=repositories"><i class="uil uil-github"></i></a>
+              <a href="https://www.instagram.com/ibnu_wildan/"> <img src="./img/instagram.png" alt="" /></a>
+              <a href="https://www.facebook.com/wildan.marjinal.5"> <img src="./img/facebook.png" alt="" /></a>
+              <a href="https://www.linkedin.com/in/ibnu-wildan-4379aa152/"> <img src="./img/linkedin.png" alt="" /></a>
+              <a href="https://github.com/ibnuwildan?tab=repositories"> <img src="./img/github.png" alt="" /></a>
             </div>
-            <a href="img/cv.pdf" download  class="btn btn-2" style="width: 10rem;"> Curiculum Vitae</a>
+            <a href="img/cv.pdf" download class="btn btn-2" style="width: 10rem"> Curiculum Vitae</a>
           </div>
           <div class="col-lg-6">
-            <form>
+            <!-- <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Your Name</label>
                 <input type="nama" class="form-control mb-3" id="nama" aria-describedby="nama" placeholder="Name"/>
@@ -192,7 +203,7 @@
                   <textarea class="form-control" id="pesan" rows="3" placeholder="Your Message"></textarea>
                 </div>
               <button type="submit" class="btn btn-1">Send</button>
-            </form>
+            </form> -->
           </div>
         </div>
       </div>
